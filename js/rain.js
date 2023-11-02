@@ -59,4 +59,4 @@ function animateRain() {
 
 }
 
-animateRain();
+// animateRain();
