@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Leunets Studio</title>
+    <link rel="stylesheet" href="dezign.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="topContent">
+            <h1>LEUNETS STUDIO</h1>
+            <p>Создаём для вас трендовые образы и хорошее настроение!</p>
+            <div class="links">
+                <a href="https://vk.com/leunetsstudio" class="linkVk">Группа Вконтакте</a>
+                <a href="https://www.instagram.com/leunetsstudio" class="linkInst">Наше портфолио в Instagram</a>
+            </div>
+            <div class="headerInformathion">
+                <div class="homePage">Главная</div>
+                <div class="working">Улуги</div>
+                <div class="contacts">Контакты</div>
+            </div>
+        </div>
+    </header>
+    <!-- слайдер темы светлая / темная  -->
+    <div class="slider-container">
+ 
+            <div class="light"></div>
+                <div class="night"></div>
+
+
+            <div class="slider-label slider-label-left">Салон днем</div>
+            <input type="range" min="0" max="1" step="1" id="themeSlider">
+            <div id="imageDisplay"></div>
+            <div class="slider-label slider-label-right">Салон ночью</div>
+
+
+
+        </div>
+    </div>
+
+
+    <!-- Container element -->
+    <div class="paralax__theme">
+        <p>Листай вниз</p>
+    </div>
+
+
+
+
+
+    <div id="mouseCheck" class="container">
+        <img class="logoAsk" src="logo.jpg">
+    </div>
+
+
+    <!-- <div class="buttonZapis"><button>Записаться</button></div> -->
+    <section class="features">
+
+        <h2>Мы поможем вам выбрать сторону прекрасного</h2>
+
+        <table>
+            <tr>
+                <td>
+                    <button class="dropbtn" onclick="toggleDropdown(1)">
+                        Услуги Парикмахера
+                    </button>
+                    <div id="dropdown1" class="dropdown-content">
+                        <a href="#">Выход из темного</a>
+                        <a href="#">Контуринг</a>
+                        <a href="#">Окрашивание в один </a>
+                        <a href="#">Осветление полность</a>
+                        <a href="#">Полировка волос</a>
+                        <a href="#">Скрытое окрашивание</a>
+                        <a href="#">Сложное окрашивание</a>
+                        <a href="#">Стрижка женская</a>
+                        <a href="#">Стрижка мужская</a>
+                        <a href="#">Тонирование</a>
+                        <a href="#"> Тотал блонд</a>
+                        <a href="#">Холодный ботокс</a>
+                        <a href="#"> Цветное окрашивание</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="dropbtn" onclick="toggleDropdown(2)">
+                        Услуги Бровиста
+                    </button>
+                    <div id="dropdown2" class="dropdown-content">
+                        <a href="#">Коррекций бровей</a>
+                        <a href="#">Коррекция+окрашивание</a>
+                        <a href="#">Коррекция+окрашивание+долговременная укладка</a>
+
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <section class="advantages">
+            <h2>Что выделяет нас среди конкурентов?</h2>
+            <ul class="advantages-list">
+                <li>Профессиональный индивидуальный подход</li>
+                <li>Комфортная обстановка</li>
+                <li>Безупречное качество обслуживания</li>
+                <li>Доступная стоимость услуг и широкое их разнообразие </li>
+                <li>использование качественной и безопасной косметики</li>
+                <li>Постоянное повышение квалификации специалистов</li>
+                <li>Ручная работа - самая индивидуальная среда в услугах</li>
+                <li>Мы ценим Вас и даем гарантию на работу в течении Недели*</li>
+            </ul>
+        </section>
+        <section class="storyLeunets">
+            <h2>ТВОЙ ЛЮБИМЫЙ БЬЮТИ САЛОН</h2>
+            <p>Формула LEUNETS STUDIO-это дружественная атмосфера и всегда превосходный сервис.</p>
+
+            <p> Наши профессиональные мастера обладают всеми топовыми техниками окрашивания:
+                контуринг, шатуш, airtouch, выход из блонда, тотал блонд.
+            </p>
+            <p>Вы можете поменять свой цвет волос за один день, сохранив их красоту и
+                здоровье.</p>
+
+            <p>Вам не придется переживать за результат и состояние волос, даже если в наш салон вы идёте впервые</p>
+
+            <p> - Учитываем структуру, пористость, процедуры и окрашивания, которые были раньше</p>
+            <p>- Окрашиваем любые типы волос
+            <p>- Подбираем самые подходящие для ваших волос техники и методы окрашивания</p>
+
+            <p> В результате: красивые, ухоженные, живые, блестящие волосы без желтизны, рыжины и других неприятных
+                сюрпризов.</p>
+        </section>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>© Leunets, 2023</p>
+                <p>Ваш выбор - наша любовь к прекрасному</p>
+                <p>* Гарантия расспространяется с учетом использования профессионального ухода в домашних условиях</p>
+            </div>
+        </footer>
+        <script src="work.js"></script>
+</body>
+
+</html>
